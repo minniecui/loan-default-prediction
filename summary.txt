@@ -2,7 +2,7 @@ Part 1: Data Exploration and Evaluation
 
 Since there were only 4 rows of data that had null values (in annual income), I removed these directly
 
-After visualizing distributions of continuous variables, I removed 16k+ values of outliers for 
+After visualizing distributions of continuous variables, I removed 16k+ values of outliers (> 99th percentile) for annual income, debt-to-income ratio, and total payment.
 
 Part 2: Business Analysis
 
