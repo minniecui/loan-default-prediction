@@ -1,10 +1,10 @@
-Part 1: Data Exploration and Evaluation
+## Part 1: Data Exploration and Evaluation
 
 Since there were only 4 rows of data that had null values (in annual income), I removed these directly
 
 After visualizing distributions of continuous variables, I removed 16k+ values of outliers for 
 
-Part 2: Business Analysis
+## Part 2: Business Analysis
 
 For this part, I filtered down the dataset into only loans with term = 36 months and issued in 2012 or earlier.
 
@@ -15,7 +15,7 @@ Contrarily, the return on lower grade loans has climbed pretty steadily over thi
 See graph in notebook
 
 
-Part 3: Modeling
+## Part 3: Modeling
 
 I initially chose manually selected features based on which ones seemed to have highest impact on loans.
 The resulting logistic regression model did not perform very well. Although it had a 87% accuracy, it was just assuming all loans would not default (null hypothesis).
