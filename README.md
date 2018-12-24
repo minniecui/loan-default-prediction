@@ -5,7 +5,7 @@ Explorations of loan data and predicting defaults
 
 Since there were only 4 rows of data that had null values (in annual income), I removed these directly
 
-After visualizing distributions of continuous variables, I removed 16k+ values of outliers (> 99th percentile) for annual income, debt-to-income ratio, and total payment.
+After visualizing distributions of continuous variables, I removed 16k+ values of outliers (> 99th percentile) for annual income, debt-to-income ratio, and revolving balance.
 
 ### Part 2: Business Analysis
 
