@@ -1,6 +1,8 @@
 # loan-default-prediction
 Explorations of loan data and predicting defaults
 
+csv dataset located here: https://www.kaggle.com/wendykan/lending-club-loan-data
+
 ### Part 1: Data Exploration and Evaluation
 
 Since there were only 4 rows of data that had null values (in annual income), I removed these directly
